@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EntityScan(basePackages = "com.aktanyusuf")
-@ComponentScan(basePackages = "com.aktanyusuf")
-@EnableJpaRepositories(basePackages = "com.aktanyusuf")
+@ComponentScan(basePackages = {"com.aktanyusuf"})
+@EntityScan(basePackages = {"com.aktanyusuf"})
+@EnableJpaRepositories(basePackages = {"com.aktanyusuf"})
 @SpringBootApplication
 public class SpringSecurityJwtDemoApplication {
 

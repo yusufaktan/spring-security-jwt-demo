@@ -5,11 +5,11 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.aktanyusuf.model.User;
+import com.aktanyusuf.model.RefreshToken;
 
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long>{
+public interface RefreshTokenRepository extends JpaRepository<RefreshToken, Long>{
 
-	Optional<User> findByUsername(String username);
+	Optional<RefreshToken> findByRefreshToken(String refreshToken);
 }
