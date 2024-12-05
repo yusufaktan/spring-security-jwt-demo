@@ -1,4 +1,4 @@
-package com.aktanyusuf.spring_security_jwt_demo;
+package com.aktanyusuf.starter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
